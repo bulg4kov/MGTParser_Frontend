@@ -1,0 +1,55 @@
+.CustomSelect{
+    font-size: 2.604vw;
+    padding: 1.042vw;
+    border-radius: 1.875vw;
+    background-color: #434AFF;
+    color: #F0F1FF;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    &__opened{
+        border-radius: 1.875vw 1.875vw 0px 0px;
+    }
+}
+
+.CustomSelect__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.667vw;
+    background-color: #fff;
+    border: 3px solid #434AFF;
+    padding: 1.042vw;
+    color: #000;
+    font-size: 1.5vw;
+    box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+    align-self: flex-start;
+    border-radius: 0px 0px 1.875vw 1.875vw;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    margin-top: 5vw;
+}
+
+.CustomSelect__option{
+    line-height: 150%;
+    border-bottom: 2px solid #434AFF;
+    cursor: pointer;
+}
+
+.CustomSelect__Arrow{
+    width: 2.031vw;
+    height: 0.938vw;
+    margin-left: 32px;
+    margin-top: 4px;
+}
+
+.CustomSelect__Wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

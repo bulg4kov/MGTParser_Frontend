@@ -1,0 +1,28 @@
+.ButtonText{
+    background-color: unset;
+    border: 0;
+    font-size: 5.208vw;
+    font-weight: 500;
+    min-width: 36.458vw;
+    text-align: left;
+    cursor: pointer;
+    font-family: inherit;
+    box-sizing: border-box;
+    position: relative;
+    transition: 0.25s;
+    line-height: 150%;
+    &::after{
+        content: '';
+        display: block;
+        width: 100%;
+        border-bottom: 12.5px solid #434AFF;
+        position: absolute;
+        transition: border-bottom 0.25s;
+    }
+    &:hover{
+        letter-spacing: 1px;
+        &::after{
+            border-bottom: 17.5px solid #434AFF;
+        }
+    }
+}

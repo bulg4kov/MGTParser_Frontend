@@ -1,0 +1,14 @@
+.InputDefault{
+    padding: 1.042vw;
+    border: 4px solid #434AFF;
+    border-radius: 1.979vw;
+    font-size: 2.604vw;
+    text-decoration: underline;
+    &:disabled{
+        border: 4px solid #a0a0a0;
+    }
+    &:placeholder-shown{
+        color: #a0a0a0;
+        text-decoration-color: #a0a0a0;
+    }
+}

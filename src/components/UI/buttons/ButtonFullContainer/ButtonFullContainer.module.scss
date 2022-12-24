@@ -1,0 +1,18 @@
+.ButtonBig {
+	background: #434aff;
+	border-radius: 36px;
+	border: 0;
+	font-size: 2.083vw;
+	font-weight: 500;
+	width: 100%;
+	padding: 0.625vw 3.333vw;
+	color: #dfe6ff;
+	min-height: 4.791vw;
+	cursor: pointer;
+	font-family: inherit;
+	transition: 0.25s;
+	&:hover {
+		padding: 1.5vw 3.5vw;
+		border: 5px solid #afb3ff;
+	}
+}

@@ -1,0 +1,17 @@
+.Field {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 16px;
+}
+.Field__error {
+  color: red;
+  font-weight: 500;
+}
+.Field__name {
+  font-weight: 500;
+}
+.Field__result {
+  font-weight: 400;
+  margin-left: 8px;
+}

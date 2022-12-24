@@ -1,0 +1,15 @@
+.ResultField {
+	display: flex;
+	flex-direction: column;
+	max-width: 450px;
+}
+.ResultField__title {
+	font-size: 16px;
+	font-weight: 500;
+	color: #434aff;
+}
+.ResultField__body {
+	font-weight: 500;
+	font-size: 50px;
+	// word-break: break-all;
+}

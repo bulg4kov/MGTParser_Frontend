@@ -1,0 +1,44 @@
+.Header{
+    height: 4.6875vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header__inner{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header__name{
+    font-size: 1.875vw;
+    font-weight: 600;
+    color: #0E1037;
+    transition: 0.5s;
+    text-decoration: none;
+    &:hover{
+        color: #434AFF;
+        letter-spacing: 1px;
+    }
+}
+
+.Header__nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vw;
+}
+
+.Nav__elem{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.25vw;
+    font-weight: 500;
+    transition: 0.2s;
+    &:hover{
+        color: #434AFF;
+        letter-spacing: 1px;
+    }
+}

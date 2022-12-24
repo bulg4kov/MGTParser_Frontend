@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from "./pages/Main/Main";
+import PageUnknown from "./pages/PageUnknown/PageUnknown";
+import { Routes, Route, Link } from "react-router-dom";
+import Parser from "./pages/Parser/Parser";
+import FAQ from "./pages/FAQ/FAQ";
+import Profile from "./pages/Profile/Profile";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/parser" element={<Parser />} />
+      <Route path="/faq" element={<FAQ />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="*" element={<PageUnknown />} />
+    </Routes>
   );
 }
 
