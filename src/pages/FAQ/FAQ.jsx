@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import ButtonFullContainer from "../../components/UI/buttons/ButtonFullContainer/ButtonFullContainer";
 import DL from "../../components/UI/DL/DL";
@@ -24,7 +25,9 @@ export default function FAQ() {
               body="Данные по текущей остановке, маршруте, направлении движения, на линии или в депо, а также данные с портала СТТС"
             />
           </section>
-          <ButtonFullContainer title="Начать пользоваться" />
+          <Link to="/parser">
+            <ButtonFullContainer title="Начать пользоваться" />
+          </Link>
         </article>
       </main>
     </>
